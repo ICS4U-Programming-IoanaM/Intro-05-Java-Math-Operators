@@ -21,10 +21,10 @@ public final class MathOperators {
     public static void main(String[] args) {
         final int three = 3;
         final int six = 6;
-        System.out.println("Addition: " + (2 + 2));
-        System.out.println("Subtraction: " + (2 - 2));
-        System.out.println("Multiplication: " + (2 * three));
-        System.out.println("Division: " + (six / 2));
-        System.out.println("More Division: " + 2 / (float) three);
+        System.out.println("Addition: 2 + 2 = " + (2 + 2));
+        System.out.println("Subtraction: 2 - 2 = " + (2 - 2));
+        System.out.println("Multiplication: 2 * 3 = " + (2 * three));
+        System.out.println("Division: 6 / 2 = " + (six / 2));
+        System.out.println("More Division: 2 / 3 = " + 2 / (float) three);
     }
 }
