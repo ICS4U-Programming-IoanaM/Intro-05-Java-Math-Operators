@@ -6,8 +6,6 @@
  * @since 2024-02-012
  */
 
-import java.util.*;
-
 public final class MathOperators {
     /**
      * Private constructor to prevent instantiation of this utility class.
@@ -20,7 +18,7 @@ public final class MathOperators {
      *
      * @param args Command-line arguments (not used in this program)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         final int three = 3;
         final int six = 6;
         System.out.println("Addition: 2 + 2 = " + (2 + 2));
