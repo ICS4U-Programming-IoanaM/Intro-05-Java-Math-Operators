@@ -6,6 +6,8 @@
  * @since 2024-02-012
  */
 
+import java.util.*;
+
 public final class MathOperators {
     /**
      * Private constructor to prevent instantiation of this utility class.
@@ -26,5 +28,8 @@ public final class MathOperators {
         System.out.println("Multiplication: 2 * 3 = " + (2 * three));
         System.out.println("Division: 6 / 2 = " + (six / 2));
         System.out.println("More Division: 2 / 3 = " + 2 / (float) three);
+        System.out.println("Even More Division: 2 / 3 = " + 2 / (double) three);
+        System.out.println("Exponential: 2^3 = " + (int) (Math.pow(2, three)));
+        System.out.println("Square Root: √4 = " + (int) (Math.sqrt(4)));
     }
 }
