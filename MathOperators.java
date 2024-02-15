@@ -5,13 +5,9 @@
  * @version 1.0
  * @since 2024-02-012
  */
-
 public final class MathOperators {
-  /**
-   * Private constructor to prevent instantiation of this utility class.
-   */
-  private MathOperators() {
-  }
+  /** Private constructor to prevent instantiation of this utility class. */
+  private MathOperators() {}
 
   /**
    * The main method prints various math operations.
