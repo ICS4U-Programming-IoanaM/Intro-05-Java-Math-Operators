@@ -7,7 +7,9 @@
  */
 public final class MathOperators {
   /** Private constructor to prevent instantiation of this utility class. */
-  private MathOperators() {}
+  private MathOperators() {
+    // Wow no no whitespace.
+  }
 
   /**
    * The main method prints various math operations.
